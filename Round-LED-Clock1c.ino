@@ -20,7 +20,7 @@
 
 
 const char ssid[] = "niq_ro";          // Your network SSID name here
-const char pass[] = "beerorwine"   // Your network password here
+const char pass[] = "beerorwine";   // Your network password here
 unsigned long timeZone = 2.0;                     // Change this value to your local timezone (in my case +1 for Amsterdam)
 const char* NTPServerName = "nl.pool.ntp.org";    // Change this to a ntpserver nearby, check this site for a list of servers: https://www.pool.ntp.org/en/
 unsigned long intervalNTP = 24 * 60 * 60000;      // Request a new NTP time every 24 hours
